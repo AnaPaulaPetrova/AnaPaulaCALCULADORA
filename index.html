@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilocalc.css">
+	<script type="text/javascript" src="result.js"></script>
+	<title>Calculadora de Namoro</title>
+</head>
+<body>
+	<div id="corpo">
+	
+		<div id="sol">
+		<section>
+					<legend>SOLTEIRO</legend><br>
+			<label for="idade">Idade:</label>
+			<input type="number" placeholder="Anos" id="idade" required ><br><br>
+
+			<div id="resultadoS"></div><br>
+			
+			<button onclick="pergunta()">OK</button>
+		</div>	
+
+		</section>
+		<div id="cx">
+		<section>
+					<legend>CASAL</legend><br>
+			<label for="idade1">Idade 1:</label>
+			<input type="number" placeholder="Anos" id="idade1" required ><br><br>
+
+			<label for="idade2">Idade 2:</label>
+			<input type="number" placeholder="Anos" id="idade2" required><br><br>
+			
+				
+				<div id="resultadoC"></div>
+			
+			<button onclick="NamoroPermitido()">OK</button>
+				
+		</section>
+	</div>
+	<div id="tri">
+		<section>
+					<legend>TRISAL</legend><br>
+			<label for="tr1">Idade 1:</label>
+			<input type="number"  placeholder="Anos" id="tri1" required ><br><br>
+
+			<label for="tri2">Idade 2:</label>
+			<input type="number"  placeholder="Anos" id="tri2" required ><br><br>
+
+			<label for="tri3">Idade 3:</label>
+			<input type="number"  placeholder="Anos" id="tri3" required ><br><br>
+				
+				<div id="resultadoT"></div>
+
+			<button onclick="namoroTrisal()">OK</button>
+				
+		</section>
+	</div>
+</div>
+</body>
+</html>

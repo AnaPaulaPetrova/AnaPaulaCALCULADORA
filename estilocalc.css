@@ -1,0 +1,69 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(hearth.webp);
+	background-repeat: no-repeat;
+	width: 1400;
+}
+#corpo{
+	width: 1000px;
+	height: 700px;
+	margin-left: 45px;
+	margin-top: 25px;
+}
+#sol, #cx, #tri{
+	margin-top: 15px;
+	border-radius: 10px;
+}
+#sol{
+	width: 400px;
+	height: auto;
+	margin-right: 50px;
+	background-color: rgba(255,0,0, 0.3);
+	text-align: center;
+	padding-bottom: 10px;
+}	
+#cx{
+	width: 400px;
+	height: auto;
+	margin-right: 50px;
+	background-color: rgba(255,0,255, 0.2);
+	text-align: center;
+	padding-bottom: 10px;
+}
+#tri{
+	width: 400px;
+	height: 300px;
+	margin-right: 50px;
+	background-color: rgba(10, 200, 0, 0.2);
+	text-align: center;
+
+}
+#resultado{
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	border: solid;
+	font-size: 50px;
+}
+input{
+	width: 50px;
+	height: 22px;
+}
+button{
+	width: 45px;
+	height: 30px;
+	background-color: salmon;
+	font-family: cursive;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px;
+	border: salmon;
+}
+legend{
+	margin-top: 5px;
+	padding-top: 15PX;
+	font-family: cursive;
+}
